@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+header {
+    margin: 0%;
+    background-image: url(/img/soccer-stadium-night-autobahn-highway-lights-red-F100021565.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+header p {
+    font-size: 2rem;
+    margin-top: 25px;
+}
+.contenido {
+    background: linear-gradient(to bottom, #198acb, #b7cfdd);
+    height: 70vh;
+    padding: 50px 20px;
+    text-align: center;
+}
+.contenido img {
+    max-width: 100%;
+    height: auto;
+}
+.contenido h2 {
+    font-size: 1.5rem;
+    margin-top: 18px;
+}
+.contenido p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.contenido a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+footer {
+    background-color: #1f3e49;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
